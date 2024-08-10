@@ -1,0 +1,41 @@
+/* SignUp.css */
+
+.signup-container {
+    background-color: #333; /* Dark grey background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-form {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .signup-container .form-label {
+    color: #fff;
+  }
+  
+  .signup-container .form-control {
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+  
+  .signup-container .form-control:focus {
+    background-color: #666;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .signup-container .btn-primary {
+    background-color: #0069d9;
+    border: none;
+    width: 100%;
+  }
+  
